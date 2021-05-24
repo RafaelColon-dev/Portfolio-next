@@ -1,18 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
-
-import styles from "../styles/Home.module.css";
-import Navbar from "./components/navbar";
+import styles from "../styles/Home.module.scss";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Rafael Colon</title>
+        <title className={styles.title}>Rafael Colon</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap"
+          rel="stylesheet"
+        ></link>
         <meta name="description" content="My Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <div className={styles.main}></div>
     </>
     // <div className={styles.container}>
     //   <Head>

@@ -1,9 +1,11 @@
 html,
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #a4acc4;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 1.2rem;
 }
 
 a {
